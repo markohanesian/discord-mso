@@ -2,9 +2,11 @@ import React from 'react'
 import { ArrowRight } from 'react-bootstrap-icons';
 
 const iconStyle = {
-    fontSize: '4rem',
+    fontSize: '3rem',
     borderRadius: '50px',
-    backgroundColor: 'white'
+    backgroundColor: 'white',
+    padding: '15px',
+    margin: '5px'
 }
 
 export default function ServerButton() {
